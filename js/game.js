@@ -805,9 +805,9 @@ var yourMessage = document.getElementById("your_message");
 var yourLink = document.getElementById("your_link");
 function linkChangey(){
 	if(yourMessage.value==""){
-		yourLink.value = "http://ncase.me/door/";
+		yourLink.value = "http://test.66619.eu.org";
 	}else{
-		yourLink.value = "http://ncase.me/door/#"+encodeURIComponent(encryptString(yourMessage.value));
+		yourLink.value = "http://test.66619.eu.org/#"+encodeURIComponent(encryptString(yourMessage.value));
 	}
 };
 yourMessage.onchange = linkChangey;
